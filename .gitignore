@@ -1,0 +1,4 @@
+# Los datos del proyecto no se publican (la consigna permite compartir solo el código)
+*.csv
+*.xlsx
+*.xls
