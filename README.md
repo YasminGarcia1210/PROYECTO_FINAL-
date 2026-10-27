@@ -25,6 +25,26 @@ Proyecto final de Analítica de Datos. Se desarrolla aplicando las fases de la m
 - Informe escrito
 - Presentación oral
 
+## Estructura de cada carpeta de carrera
+
+```
+CARRERA/
+├── README.md          # Consigna resumida de la carrera
+├── consigna/          # Documento original de la consigna (.docx / .pdf)
+├── datos/             # Datos del proyecto (NO se suben a GitHub)
+├── notebooks/         # Notebook(s) de Python con el análisis (.ipynb)
+├── informe/           # Informe final (PDF o Word)
+└── presentacion/      # Diapositivas de la sustentación (PDF)
+```
+
+Carpetas: `BIOLOGIA/`, `INDUSTRIAL/` y `ENER_INTELIGENTES/`. En la raíz también están `requirements.txt` (librerías: `pip install -r requirements.txt`) y `.gitignore`.
+
+### Cómo entregar
+1. Trabajen en la carpeta de su carrera (en un grupo, dentro de una subcarpeta con el nombre del equipo si hace falta).
+2. Pongan el notebook en `notebooks/`, el informe en `informe/` y las diapositivas en `presentacion/`.
+3. Guarden los datos en `datos/`: están ignorados por Git, así que no se suben.
+4. Verifiquen que el notebook corre de principio a fin antes de entregar.
+
 ## Rúbrica de evaluación
 
 | Criterio | Peso | Excelente | Aceptable | Insuficiente |

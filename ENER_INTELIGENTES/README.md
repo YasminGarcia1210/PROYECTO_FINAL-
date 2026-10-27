@@ -11,11 +11,11 @@ Una empresa de operación y mantenimiento (O&M) de plantas solares quiere ofrece
 
 | # | Proyecto | Tipo | Equipo | Archivo de la consigna |
 |---|---|---|---|---|
-| 1 | Potencia de la planta solar, **Planta 1** | Regresión | 4 personas | `Proyecto_Final_Solar_1_Regresion_Planta1.pdf` |
-| 2 | Potencia de la planta solar, **Planta 2** (con pérdidas operativas) | Regresión + K-Means de días | 4 personas | `Proyecto_Final_Solar_2_Regresion_Planta2.pdf` |
-| 3 | Nivel de generación (alto, medio, bajo), **Planta 1** | Clasificación | 3 personas | `Proyecto_Final_Solar_3_Clasificacion_Planta1.pdf` |
-| 4 | Nivel de generación (alto, medio, bajo), **Planta 2** (con pérdidas operativas) | Clasificación + K-Means de días | 4 personas | `Proyecto_Final_Solar_4_Clasificacion_Planta2.pdf` |
-| 5 | Temperatura del módulo, **Plantas 1 y 2** | Regresión + prueba en otra planta | 3 personas | `Proyecto_Final_Solar_5_Temperatura_Modulo.pdf` |
+| 1 | Potencia de la planta solar, **Planta 1** | Regresión | 4 personas | `consigna/Proyecto_Final_Solar_1_Regresion_Planta1.pdf` |
+| 2 | Potencia de la planta solar, **Planta 2** (con pérdidas operativas) | Regresión + K-Means de días | 4 personas | `consigna/Proyecto_Final_Solar_2_Regresion_Planta2.pdf` |
+| 3 | Nivel de generación (alto, medio, bajo), **Planta 1** | Clasificación | 3 personas | `consigna/Proyecto_Final_Solar_3_Clasificacion_Planta1.pdf` |
+| 4 | Nivel de generación (alto, medio, bajo), **Planta 2** (con pérdidas operativas) | Clasificación + K-Means de días | 4 personas | `consigna/Proyecto_Final_Solar_4_Clasificacion_Planta2.pdf` |
+| 5 | Temperatura del módulo, **Plantas 1 y 2** | Regresión + prueba en otra planta | 3 personas | `consigna/Proyecto_Final_Solar_5_Temperatura_Modulo.pdf` |
 
 ### Qué se hace en cada uno
 - **1 y 2 (regresión de potencia):** predecir `AC_PLANTA_KW`. Líneas base: regresión lineal con la irradiación sola y persistencia (potencia de 15 min antes). Modelos: regresión lineal múltiple y árbol de decisión. Métricas: R², RMSE y MAE. En el proyecto 2, además, segmentar los días con K-Means (codo y silhouette) y relacionar los grupos con el error del modelo; se debe analizar por qué el clima no explica toda la variación (inversores sin producción, pérdidas operativas).
@@ -29,7 +29,7 @@ Una empresa de operación y mantenimiento (O&M) de plantas solares quiere ofrece
 4. **Informe, notebook y sustentación** (despliegue): cómo usaría la empresa el modelo.
 
 ## Datos
-Dataset de Kaggle: https://www.kaggle.com/datasets/anikannal/solar-power-generation-data (cuenta gratuita, botón *Download*). Cada equipo lo descarga; **no está en este repositorio** y no debe incluirse en la entrega.
+Dataset de Kaggle: https://www.kaggle.com/datasets/anikannal/solar-power-generation-data (cuenta gratuita, botón *Download*). Cada equipo lo descarga; **no está en este repositorio** (guárdenlo en `datos/`) y no debe incluirse en la entrega.
 
 | Proyecto | Archivos a usar |
 |---|---|

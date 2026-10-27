@@ -1,0 +1,10 @@
+# Instalar con: pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+xgboost
+openpyxl
+jupyter

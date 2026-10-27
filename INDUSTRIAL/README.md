@@ -12,11 +12,11 @@ Envases del Pacífico S.A.S. (EnPac), en Yumbo, Valle del Cauca, fabrica envases
 - ¿Qué regímenes de operación existen y cómo se relacionan con desperdicio y calidad?
 
 ## Datos
-- `produccion_corridas.csv`: corridas de producción
-- `condiciones_planta.csv`: condiciones de planta
-- `mantenimientos.csv`: mantenimientos
-- `catalogo_maquinas_moldes.xlsx`: catálogo de máquinas y moldes
-- `diccionario_de_datos.xlsx`: descripción de cada variable
+- `datos/produccion_corridas.csv`: corridas de producción
+- `datos/condiciones_planta.csv`: condiciones de planta
+- `datos/mantenimientos.csv`: mantenimientos
+- `datos/catalogo_maquinas_moldes.xlsx`: catálogo de máquinas y moldes
+- `datos/diccionario_de_datos.xlsx`: descripción de cada variable
 
 ## Tareas
 1. **Contexto**: proceso de inyección, indicadores (desperdicio, energía, OEE, muestreo), sector plástico en Colombia, estado del arte. Mínimo 6 hipótesis verificables y criterios de éxito.
@@ -30,4 +30,4 @@ Envases del Pacífico S.A.S. (EnPac), en Yumbo, Valle del Cauca, fabrica envases
 - **Código**: Jupyter Notebook documentado.
 - **Informe**: máximo 5 páginas, formato IEEE (resumen, introducción, metodología, resultados y discusión, conclusiones y trabajo futuro). Sin anexar el código.
 
-Consigna completa: `Consigna_Proyecto Analítica de Datos.docx`.
+Consigna completa: `consigna/Consigna_Proyecto Analítica de Datos.docx`.

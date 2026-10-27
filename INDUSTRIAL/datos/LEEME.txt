@@ -1,0 +1,2 @@
+Aqui van los CSV y XLSX de la planta (se comparten por fuera de GitHub).
+Los datos NO se suben al repositorio.

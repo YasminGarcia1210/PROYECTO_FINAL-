@@ -1,0 +1,3 @@
+Descarguen los CSV desde Kaggle:
+https://www.kaggle.com/datasets/anikannal/solar-power-generation-data
+Los datos NO se suben al repositorio.

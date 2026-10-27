@@ -6,7 +6,7 @@
 Los conteos de huevos son **simulados con fines académicos**; no son monitoreo real y no deben interpretarse como registros epidemiológicos.
 
 ## Datos
-`Consolidado_ambiental_nodos_Comuna_22_AD.xlsx`: hoja *Datos semanales* (una observación semanal por nodo, con temperatura, humedad relativa, precipitación y huevos; contiene valores faltantes y atípicos) y hoja *Diccionario*.
+`datos/Consolidado_ambiental_nodos_Comuna_22_AD.xlsx`: hoja *Datos semanales* (una observación semanal por nodo, con temperatura, humedad relativa, precipitación y huevos; contiene valores faltantes y atípicos) y hoja *Diccionario*.
 
 ## Consigna
 1. **EDA**: distribución, temporalidad, diferencias entre nodos, faltantes, extremos y relaciones entre variables. Justificar el tratamiento de faltantes y atípicos (y toda exclusión).
@@ -20,4 +20,4 @@ Los conteos de huevos son **simulados con fines académicos**; no son monitoreo 
 - **Informe**: Word, máximo 5 páginas, letra 12, espacio sencillo. Introducción (1 pág), objetivos (0.5), metodología (1), resultados (1.5), discusión y conclusiones (1), referencias.
 - **Sustentación**: 10 min de presentación + 5 min de preguntas; todos los integrantes participan.
 
-Consigna completa: `Proyecto_analitica_BIO_20262.docx`.
+Consigna completa: `consigna/Proyecto_analitica_BIO_20262.docx`.
