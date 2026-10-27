@@ -47,11 +47,13 @@ Carpetas: `BIOLOGIA/`, `INDUSTRIAL/` y `ENER_INTELIGENTES/`. En la raíz tambié
 
 ## Rúbrica de evaluación
 
-| Criterio | Peso | Excelente | Aceptable | Insuficiente |
-|---|---|---|---|---|
-| Aplicación de CRISP-DM | 20% | Todas las fases están completas y bien justificadas, desde la comprensión del problema hasta la evaluación. | Aplica las fases, pero algunas están incompletas o poco justificadas. | Omite fases o no sigue la metodología. |
-| Preparación y exploración de datos | 20% | Limpieza, transformación y EDA rigurosos, con decisiones documentadas. | Preparación y EDA correctos, con poca documentación de las decisiones. | Preparación deficiente o sin exploración. |
-| Modelado y evaluación | 25% | Modelos adecuados al problema, con métricas apropiadas y comparación entre alternativas. | Modelo razonable, con evaluación básica. | Modelo inadecuado o sin evaluación. |
-| Interpretación, conclusiones y recomendaciones | 15% | Resultados interpretados en el contexto de la carrera, con recomendaciones basadas en datos. | Interpretación correcta pero general. | Conclusiones sin sustento en los datos. |
-| Informe escrito | 10% | Claro, riguroso, bien estructurado y reproducible. | Comprensible, con fallas de estructura o rigor. | Confuso o incompleto. |
-| Presentación oral | 10% | Clara, argumentada y dentro del tiempo; responde bien las preguntas. | Adecuada, con argumentación limitada. | Desorganizada o sin argumentación. |
+Se evalúan 8 criterios en 4 niveles (Outstanding, Proficient, Developing, Beginning). La tabla completa está en [RUBRICA.md](RUBRICA.md).
+
+1. Identificación y análisis de dilemas éticos (PI1)
+2. Análisis de impactos globales, sociales, ambientales y económicos (PI2)
+3. Formulación matemática del problema (PI3)
+4. Estrategia de solución y justificación técnica
+5. Aplicación rigurosa de fundamentos matemáticos (normalización, métricas, cálculos, funciones de pérdida, ángulos, etc.)
+6. Análisis e interpretación de resultados
+7. Conclusiones técnicas y coherencia general
+8. Calidad del informe final (estructura, claridad, figuras, referencias, documentación)
